@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/")
     public String sayHello() {
-        return "Your first spring boot project has started !";
+        return "merge!";
     }
 }
